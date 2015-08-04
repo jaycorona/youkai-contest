@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*1: リセット
+=================================*/
+
+/* フォントサイズ100％とフォントファミリー追加 */
+*{margin:0; padding:0; font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;}
+
+/* <hr />タグを入れるとフロートクリア */
+hr{visibility:hidden; border:0; clear:both; padding:0; margin:0;}
+
+/* 下揃え追加 */
+img {margin: 0;	padding: 0;	border: none; vertical-align: bottom;}
+
+h1,h2,h3,h4,h5,h6{ font-weight:normal; font-size:100%; zoom:1;}
+table{ border-collapse:collapse;}
+ul,ol,dl{list-style-type: none;}
+strong{ font-weight:bold;}
+address{ font-style:normal;}
+
+
+html, body {
+color:#FFFFFF;
+margin:0;
+padding:0;
+}
+
+body{
+	background: url(../img/YW_charaben02_BG.png) top center repeat;
+    background-size: 100%;
+}
+
+.container{
+	background: url(../img/background2.png) no-repeat;
+    background-position: center top;
+    margin-left: auto;
+    margin-right: auto;
+	width: 970px;
+    height: 1181px;
+}
+
+form{ margin:0; padding:0;}
+
+
+.guide{display:none;}
+.clear{ clear:both;}
+.left{ float:left;}
+.right{float:right;}
+
+/* divの中央揃えも可能 */
+.center{ text-align:center; margin:0 auto; }
+
+
+
+/*index img*/
+
+.index09{
+	margin: 0px 0px -1px 0px;
+}
+
+
+#header{
+    width: 100%;
+    height: 111px;
+}
+
+#header2{
+    width: 100%;
+    text-align: center;
+}
+
+#container{
+    width: 100%;
+    height: 706px;
+    text-align: center;
+    background-image: url('../img/index3/container.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#container .label1{
+    margin-top: 5px;
+}
+
+#container .label2{
+    margin-top: 10px;
+}
+
+#content{
+    background-color: #fff;
+    width: 450px;
+    height: 493px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-right: 1px solid #555;
+    border-bottom: 2px solid #555;
+    color: #000;
+    padding: 0px 30px 0 30px;
+}
+
+#content table{
+    width: 100%;
+}
+
+#content table tr{
+    border-bottom: 1px dashed #000;
+}
+
+#content table tr:last-child{
+    border-bottom: none;
+}
+
+#content table tr td:first-child{
+    text-align: right;
+    width: 40%;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#content table tr td:first-child .small-label{
+    font-size: 9px;
+    padding-right: 5px;
+}
+
+#footer{
+    width: 98%;
+    height: 103px;
+    background-image: url('../img/index3/footer.png');
+    margin-top: 42px;
+    overflow: hidden;
+    padding-top: 12px;
+    padding-right: 2px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .footer-text{
+    float: right;
+    padding-right: 15px;
+    font-size: 12px;
+}

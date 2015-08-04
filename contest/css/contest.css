@@ -29,6 +29,7 @@ padding:0;
 
  body{
 	background: url(../img/YW_charaben02_BG.png) top center repeat;
+	background-size: 100%;
 }
 
 #container{
@@ -47,6 +48,15 @@ padding:0;
     margin-right: auto;
 	width: 970px;
     height: 2070px;
+}
+
+#container4{
+	background: url(../img/background4.png) no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+	width: 970px;
+    height: 995px;
 }
 
 
@@ -136,6 +146,8 @@ form{ margin:0; padding:0;}
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
+
+    text-indent: 20px;
 }
 .bg{
   background: url(../img/index2/YW_index2_selected.png) no-repeat;
@@ -174,5 +186,9 @@ form{ margin:0; padding:0;}
 .btn-submit2{
 	margin-left: 311px;
 	margin-top: 17px;
-	
+}
+
+.btn-submit4{
+	margin-left: 311px;
+    margin-top: -99px;
 }
