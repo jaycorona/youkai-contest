@@ -27,11 +27,11 @@ margin:0;
 padding:0;
 }
 
-body{
+ body{
 	background: url(../img/YW_charaben02_BG.png) top center repeat;
 }
 
-.container{
+#container{
 	background: url(../img/background.png) no-repeat;
     background-position: center;
     margin-left: auto;
@@ -39,6 +39,16 @@ body{
 	width: 970px;
     height: 2113px;
 }
+
+#container2{
+	background: url(../img/background2.png) no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+	width: 970px;
+    height: 2070px;
+}
+
 
 form{ margin:0; padding:0;}
 
@@ -59,5 +69,110 @@ form{ margin:0; padding:0;}
 	margin: 0px 0px -1px 0px;
 }
 
+#indexbtn1{
+	margin-top: -99px;
+	margin-bottom: 12px;
+	margin-left: 310px;
+}
+
+#indexbtn2{
+	margin-top: -126px;
+	margin-left: 600px;
+}
 
 
+
+/*index 2*/
+.txtinput{
+    margin-top: -500px;
+    margin-bottom: 475px;
+    margin-left: 449px;
+    width: 277px;
+    height: 41px;
+    position: absolute;
+
+}
+
+.form-control{
+	resize: horizontal;
+    width: 277px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 3px;
+    border-radius: 9px;
+    font-size:20px;
+    border: none;
+    text-indent: 10px;
+
+}
+
+.form-file{
+	resize: horizontal;
+    width: 277px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 3px;
+    border-radius: 9px;
+    font-size:20px;
+ 
+}
+   input[type="file"]{-moz-opacity:0 ;filter:alpha(opacity: 0);opacity: 0;}
+
+.input-br{
+	 margin-top: 15px;
+}
+
+/*selected*/
+
+.form-select{
+	width: 168px;
+    height: 42px;
+    margin-left: 2px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.bg{
+  background: url(../img/index2/YW_index2_selected.png) no-repeat;
+}
+
+.input-bg{
+    background: url(../img/index2/YW_index2_input.png) no-repeat;
+}
+
+.file-bg{
+    background: url(../img/index2/YW_index2_btnUploadImg.png) no-repeat;
+    margin-top: 21px;
+}
+
+
+.btn-checkbox{
+	margin-top: -176px;
+    margin-left: 277px;
+}
+
+
+.form-check{
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(2); /* Safari and Chrome */
+	-o-transform: scale(2); /* Opera */
+  	padding: 10px;
+    margin-left: -41px;
+    margin-bottom: 22px;
+
+}
+
+
+/*Submit index2*/
+
+.btn-submit2{
+	margin-left: 311px;
+	margin-top: 17px;
+	
+}
