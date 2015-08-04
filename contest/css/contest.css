@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*1: リセット
+=================================*/
+
+/* フォントサイズ100％とフォントファミリー追加 */
+*{margin:0; padding:0; font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;}
+
+/* <hr />タグを入れるとフロートクリア */
+hr{visibility:hidden; border:0; clear:both; padding:0; margin:0;}
+
+/* 下揃え追加 */
+img {margin: 0;	padding: 0;	border: none; vertical-align: bottom;}
+
+h1,h2,h3,h4,h5,h6{ font-weight:normal; font-size:100%; zoom:1;}
+table{ border-collapse:collapse;}
+ul,ol,dl{list-style-type: none;}
+strong{ font-weight:bold;}
+address{ font-style:normal;}
+
+
+html, body {
+color:#FFFFFF;
+margin:0;
+padding:0;
+}
+
+body{
+	background: url(../img/YW_charaben02_BG.png) top center repeat;
+}
+
+.container{
+	background: url(../img/background.png) no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+	width: 970px;
+    height: 2113px;
+}
+
+form{ margin:0; padding:0;}
+
+
+.guide{display:none;}
+.clear{ clear:both;}
+.left{ float:left;}
+.right{float:right;}
+
+/* divの中央揃えも可能 */
+.center{ text-align:center; margin:0 auto; }
+
+
+
+/*index img*/
+
+.index09{
+	margin: 0px 0px -1px 0px;
+}
+
+
+
