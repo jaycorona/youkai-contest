@@ -144,8 +144,9 @@ $(document).ready(function() {
 	//$.removeCookie('space_cookie');
 		$('.btn').click(function(e){
 			e.preventDefault();
-			var data = new Array();
-			
+			var hostname 	= $(location).attr('hostname');
+			var data 		= new Array();
+
 			$('.section').each(function(){
 				var classname = $(this).attr('name');
 				var value = null;
@@ -167,7 +168,7 @@ $(document).ready(function() {
 			//console.log( data );
 			$.cookie('space_cookie', JSON.stringify( data ), {expires : 1, path: '/'});
 
-			setTimeout(function(){  $(location).attr('href',"http://youkai-contest.localhost/index3.html"); }, 1000);
+			setTimeout(function(){  $(location).attr('href',"http://"+hostname+"/index3.html"); }, 1000);
 			console.log($.cookie('space_cookie'));
 				
 		});
