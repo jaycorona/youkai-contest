@@ -192,3 +192,26 @@ form{ margin:0; padding:0;}
 	margin-left: 311px;
     margin-top: -99px;
 }
+
+
+.btn-button{
+    border-radius: 26px;
+    background-image: url("../img/index2/YW_index2_btnsubmit.png");
+    width: 340px;
+    height: 82px;
+
+}
+
+.btn-button:hover {
+  opacity: .7;
+}
+a:hover{
+  opacity: .7;
+    
+}
+.disabled-btn{
+    border-radius: 26px;
+    background-image: url("../img/index2/YW_index2_btnsubmit_disabled.png");
+    width: 340px;
+    height: 82px;
+}
