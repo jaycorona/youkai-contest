@@ -99,7 +99,9 @@
 		</select>
 
 		<div class="file-bg">
-		<input type="file" class="section form-file  input-br"  name="images" accept="image/jpg"> 
+			<form  method="post" enctype="multipart/form-data">
+					<input type="file" class="section form-file  input-br"  name="images" > 
+			</form>
 		</div>
 
 	</div>
@@ -172,6 +174,26 @@ $(document).ready(function() {
 			console.log($.cookie('space_cookie'));
 				
 		});
+
+
+		if( $.cookie('space_cookie') ){
+            var sections = JSON.parse( $.cookie('space_cookie') );
+            var split;
+            console.log(sections);
+            for( var i=0; i<sections.length; i++ ){
+                	
+                	$('.section').each(function () {
+                		var attr = $(this).attr('name');
+	                	if (typeof attr !== typeof undefined && attr == sections[i].name) {
+
+	                		$(this).val(sections[i].value);
+
+						}
+                	});
+              
+            }
+            
+        }
 		
 	
 
