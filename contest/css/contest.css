@@ -50,6 +50,15 @@ padding:0;
     height: 2070px;
 }
 
+#container3{
+    background: url(../img/background3.png) no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 1181px;
+}
+
 #container4{
 	background: url(../img/background4.png) no-repeat;
     background-position: center;
